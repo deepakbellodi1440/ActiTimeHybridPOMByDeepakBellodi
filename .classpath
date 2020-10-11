@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="com.actitime.qa.testdata"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/POI/CommonJAR/POI/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/POI/CommonJAR/POI/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="/POI/CommonJAR/POI/commons-collections4-4.2.jar"/>
+	<classpathentry kind="lib" path="/POI/CommonJAR/POI/commons-compress-1.18.jar"/>
+	<classpathentry kind="lib" path="/POI/CommonJAR/POI/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/POI/CommonJAR/POI/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="/POI/CommonJAR/POI/curvesapi-1.05.jar"/>
+	<classpathentry kind="lib" path="/POI/CommonJAR/POI/jaxb-api-2.3.0.jar"/>
+	<classpathentry kind="lib" path="/POI/CommonJAR/POI/jaxb-core-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="/POI/CommonJAR/POI/jaxb-impl-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="/POI/CommonJAR/POI/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="/POI/CommonJAR/POI/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="/POI/CommonJAR/POI/poi-4.0.1.jar"/>
+	<classpathentry kind="lib" path="/POI/CommonJAR/POI/poi-examples-4.0.1.jar"/>
+	<classpathentry kind="lib" path="/POI/CommonJAR/POI/poi-excelant-4.0.1.jar"/>
+	<classpathentry kind="lib" path="/POI/CommonJAR/POI/poi-ooxml-4.0.1.jar"/>
+	<classpathentry kind="lib" path="/POI/CommonJAR/POI/poi-ooxml-schemas-4.0.1.jar"/>
+	<classpathentry kind="lib" path="/POI/CommonJAR/POI/poi-scratchpad-4.0.1.jar"/>
+	<classpathentry kind="lib" path="/POI/CommonJAR/POI/xmlbeans-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Avis/Downloads/Compressed/TakeScreenShotDriverFile/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Avis/Downloads/Compressed/ExtentReport/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_191"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

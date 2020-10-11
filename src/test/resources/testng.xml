@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="ActiTime suite Hybrid POM Model">
+		<listeners>
+		<listener class-name="com.actitime.qa.extentReport.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="Atitime test cases" verbose="2">
+			<classes>
+			<class name="com.company.ActitimeHybrid.LoginPageTest"/>
+			<class  name="com.company.ActitimeHybrid.TasksPageTest"/>
+			<class name="com.company.ActitimeHybrid.TimeTrackPageTest"/>
+			</classes>
+	</test>
+</suite>

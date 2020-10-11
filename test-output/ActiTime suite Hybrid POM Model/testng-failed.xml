@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ActiTime suite Hybrid POM Model]">
+  <test verbose="2" name="Atitime test cases">
+    <classes>
+      <class name="com.company.ActitimeHybrid.LoginPageTest"/>
+      <class name="com.company.ActitimeHybrid.TasksPageTest"/>
+      <class name="com.company.ActitimeHybrid.TimeTrackPageTest"/>
+    </classes>
+  </test> <!-- Atitime test cases -->
+  <test name="Atitime test cases(failed)">
+    <classes>
+      <class name="com.company.ActitimeHybrid.TimeTrackPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.company.ActitimeHybrid.TimeTrackPageTest -->
+      <class name="com.company.ActitimeHybrid.TasksPageTest">
+        <methods>
+          <include name="taskCreatedOrNot"/>
+          <include name="verifyTextInTaskPage"/>
+          <include name="setUp"/>
+          <include name="CreateNewTask"/>
+        </methods>
+      </class> <!-- com.company.ActitimeHybrid.TasksPageTest -->
+      <class name="com.company.ActitimeHybrid.LoginPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.company.ActitimeHybrid.LoginPageTest -->
+    </classes>
+  </test> <!-- Atitime test cases(failed) -->
+</suite> <!-- Failed suite [ActiTime suite Hybrid POM Model] -->
